@@ -34,7 +34,7 @@ class SecondaryWindowController: NSWindowController {
     
     
     @IBAction func activity(sender: AnyObject) {
-        count++
+        count += 1
         delegate?.registryActivity("---> EL BOTÓN EN MAIN WINDOW HA SIDO PRESIONADO \(count) VECES.")
         print("Activity in Secondary Window")
     }
